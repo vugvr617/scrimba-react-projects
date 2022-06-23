@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  width: 100px;
+  margin-left: 40px;
+}
