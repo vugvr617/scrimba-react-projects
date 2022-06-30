@@ -1,0 +1,10 @@
+nav {
+    background-color: #672280;
+    display: flex;
+    align-items: center;
+    min-height: 65px;
+}
+
+nav img {
+    margin-left: 2em;
+}
