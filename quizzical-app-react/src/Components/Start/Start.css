@@ -1,0 +1,40 @@
+.starting-div,
+main{
+    
+    height: 100%;
+}
+
+.starting-div{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.start-text-div{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.start-text-div > button {
+    border-style: none;
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    font-size: 17px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    cursor:pointer;
+}
+
+.start-text-div > p {
+    font-family: 'Inter', sans-serif;
+    color: #293264;
+}
+
+.start-text-div > h1 {
+    color: #293264;
+}

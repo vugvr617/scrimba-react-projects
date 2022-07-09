@@ -1,0 +1,50 @@
+body {
+  background-color: #f5f7fb;
+  width: 100%;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0px;
+  font-family: "Karla", sans-serif;
+}
+
+#root {
+  height: 100%;
+}
+
+.button-div button {
+  border-style: none;
+  background-color: #4d5b9e;
+  color: #f5f7fb;
+  font-size: 17px;
+  padding: 1em;
+  border-radius: 15px;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.blob-div-1 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.main-blob-div {
+  width: 100%;
+  position: absolute;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
